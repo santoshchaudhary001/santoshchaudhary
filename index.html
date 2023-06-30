@@ -4,436 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 ,shrink-to-fit=no" />
-    <meta name="description" content=""/>
-    <meta name="theme-color" content="##16191b"/>
-    <title> Santosh Chaudhary | Developer | Travaller</title>
-    <!-- <link rel="icon" href="./image/favicon-32x32.png"> -->
-    <link rel="icon" href="./image/favicon-32x32.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta-data end -->
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/favicon_io/site.webmanifest">
+
+    <!-- boostrap4 link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <title>Santosh Chaudhary | Developer | Designer</title>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand text-success text-decoration-none" href="index.html">S.D</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto justify-content-center text-uppercase font-weight-normal">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  text-white" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#resume">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Resources
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Documentation</a>
-                        <a class="dropdown-item" href="#">Source code</a>
-
+    <div class="container header_wrapper">
+        <nav class="navbar navbar-expand-lg sticky-top">
+                <a class="navbar-brand" href="index.html"><img src="./favicon/favicon_io/favicon.ico" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                     <i class="fas fa-bars navbar-toggler-icon p-1"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav menu-navbar-nav text-sm-center">
+                        <li class="nav-item active">
+                            <a class="nav-link  text-uppercase" href="index.html">Home<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="about.html">About</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-uppercase" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="portfolio.html">Portfolio</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+      <!-- hero section  -->
+         <div class="container wrapper">
+            <div class="cols cols0">
+                <span class="topline text-light">Hello</span>
+                <h1 class="text-light">I'm <span class="type"></span></h1>
+                <p class="text-light" style="font-size:18px;">
+                    I'm ethunstic and self motivated person and currently work as a Front-End Developer
+                    My Hobies are playing game, reading books cycling, travelling... 
+                </p>
+               
+                <div class="btns">
+                    <a id="pdffile" href="./docs/Developer CV.pdf"></a>
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-discord"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a> 
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="#contact">Contact</a>
-                </li>
-                <li class="nav-link-item">
-                    <a class="nav-link font-weight-bold " id="time" href="#contact"></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- nav end -->
-
-    <!-- main-background start  -->
-    
-        <div class="container my-5">
-            <div class="row">
-                <!-- <div class="col-md">
-                <a href="https://www.facebook.com/profile.php" target="_blank"> <i data-toggle="tooltip"data-placement="top" title="facebook" class="fa-brands fa-facebook text-success "></i></a>
-                <a href="https://www.linkedin.com/in/santosh-chaudhary-9a933a19a/" target="_blank"><i data-toggle="tooltip" data-placement="top" title="linkedin" class="fa-brands fa-linkedin text-success"></i></a>
-                <a href="https://github.com/santoshchaudhary001" target="_blank"><i data-toggle="tooltips"data-placement="top" title="github" class="fa-brands fa-github text-success"></i></a>
-             -->
-
-                <div class="col-lg">
-                    <h6>Hi, I am</h6>
-                     <h4>Chaudhary Santosh</h4>
-                    <h5><span id="move-text"></span></h5>
-                    <P>I am a Developer. I love development work and
-                      Currently I am pursuing my Bachelor Degree in Computer Application
-                      from Aadim National College.</P>
-                      <button id="download_cv" type="button" class="btn btn-success" data-toggle="tooltip"
-                      data-placement="bottom" title="Download CV">
-                      <a style="text-decoration:none;" class="text-white"
-                          href="./uploads/Network Engineer CV.png" download>Download CV &nbsp; &nbsp; <span
-                              class="fa-solid fa-download"></span></a>
-                      </button>
-                </div>
-                <div class="col-lg">
-                    <img src="./image/business.jpg" alt="bg-photo" class="img-fluid" />
-                </div>
-
-            </div>
-        </div>
-    
-    <!-- main-backgroun end -->
-
-    <!-- basic part start -->
-    <div class="container ourservices text-center my-5">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                <div class="icons d-block m-auto">
-                    <i class=" text-success fa-solid fa-award fa-2x"></i>
-                    <h6 class="text-uppercase">1 year</h6>
-                    <p class="font-weight-light text-light">Experience</p>
+                    <br>
+                   <button class="download-btn" data-timer="5">download CV</button>
+                   <a href="contact.html"><button class="">hire me</button></a>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                <div class="icons d-block m-auto">
-                    <a href="#"><i class="text-success fa fa-book fa-2x"></i></a>
-                    <h6 class="text-uppercase">5 Projects</h6>
-                    <p class="font-weight-light text-light">Completed</p>
+         
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <div class="circle-arc">
+                        <img src="./img/mypro.png" alt="photo"> 
+                    </div>
+                    
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                <div class="icons d-block m-auto">
-                <a href="#"><i class="text-success fa fa-user fa-2x"></i></a>
-                <h6 class="text-uppercase">Support</h6>
-                <p class="font-weight-light text-light">Online 24/7</p>
-                </div>
-            </div>
-        </div>
+        </div> 
     </div>
-
-    <!-- basic part start -->
-
-    <!-- intro part start  -->
-    <section id="about">
-        <div class="container my-3">
-            <div class="row">
-                <div class="col-lg-6 d-block m-auto">
-                    <img src="./image/business.jpg" alt="intro-photo" class="img-fluid">
-                </div>
-                <div class="col-lg-6 my-3">
-                    <h3>About me</h3>
-                    <p>I am a Front-End Developer. I love development work and
-                        Currently I am pursuing my Bachelor Degree in Computer Application
-                        from Aadim National College.
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-6 my-5 d-block">
-                            <li class="fa fa-phone text-success"></li><a href="tel:+9779868057217" class="info text-white"> +977-9868057217</a><br><br>
-                            <i class="fa-solid fa-envelope text-success"></i> <span class="info"> santoshchy10011@gmail.com</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+    <footer>
+        <div class="copyright text-center my-2 py-3 text-light" style=" font-size: 0.9rem; opacity: 0.5;; font-weight: lighter; color:rgba(56, 56, 57, 0.8); ">
+           Copyright &copy; <span><script>document.write(new Date().getFullYear());</script>, </span>All rights reserved. <br>
+           <span class="text-light">Personally Crafted <span><i class="fa fa-heart" style="color: #ff10f0;"></i></span> By <a href="https://www.linkedin.com/in/santosh-chaudhary-9a933a19a/">Santosh Chaudhary</a></span>
         </div>
-    </section>
-    <!-- intro part start  -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- auto type effect cdn link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-    <!-- my expertice area skills section start -->
-    <section id="resume">
-        <div class="container">
-            <div class="row my-5">
-                <div class="col-lg-12 text-center">
-                    <br />
-                    <h3>My Skills</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <label for="c">C</label><br>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100" style="width:65%">
-                            65%
-                        </div>
-                    </div>
-                    <label for="php">PHP</label><br>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100" style="width:60%">
-                            60%
-                        </div>
-                    </div>
-                    <label for="java">Java</label><br>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%">
-                            70%
-                        </div>
-                    </div>
-                    <label for="linux">Linux</label><br>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100" style="width:65%">
-                            65%
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <label for="seo">Search Engine Optimization</label><br>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100" style="width:75%">
-                            75%
-                        </div>
-                    </div>
-
-                    <label for="wd">Web Design</label><br>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100" style="width:80%">
-                            80%
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- my expertice area skills section start -->
-
-        <!-- my qualification start  -->
-        
-            <div class="container my-5">
-                <div class="row justify-content-center my-5">
-                    <h3 class="">Qualification</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg">
-                        <div class="fa-solid fa-graduation-cap fa-2x text-success"></div>
-                        <h5>Education</h5>
-                        <div class="v-line"></div>
-                        <span class="icons"></span>
-                        <h6>High School</h6>
-                        <h6>Gyan Sindhu School/College, Ghorahi Dang</h6>
-                        <p>Management</p>
-                        <span>2018(2075)</span>
-                        <br><br>
-                        <div class="w-100"></div>
-                        <span class="icons"></span>
-                        <h6>Bachelor in Computer Application</h6>
-                        <h6>Aadim National SS/College, Chabahil kathmandu</h6>
-                        <p>Computer Science</p>
-                        <span>2023(2080)</span>
-                    </div>
-                    <div class="col-lg">
-                        <div class="fa-solid fa-briefcase fa-2x text-success"></div>
-                        <h5>Experience</h5>
-                        <div class="ev-line"></div>
-                        <span class="icons"></span>
-                        <h6>Freelancer</h6>
-                        <p>Worked as a freelancer as Front-End Developer</p>
-                        <span></span>
-                        <br><br>
-                    </div>
-                </div>
-            </div>
-        
-
-        <!-- <div class="row">
-                    <div class="col-lg-2">
-                        <div class="circle-icons fa-solid fa-circle-dot text-white"></div>
-                        <div class="vertical-line"></div>
-                        
-                    </div>
-                    <div class="col-lg-10">
-                        <h5 class="">Bachelor in Computer Application</h5>
-                        <h6>Aadim National College, Chabahil kathmandu Nepal</h6>
-                        <p>Computer Science</p>
-                        <span>(2080)2023</span>
-                        
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="circle-icons fa-solid fa-circle-dot text-white"></div>
-                        <div class="vertical-line"></div>
-                        
-                    </div>
-                    <div class="col-lg-10">
-                        <h5 class="">Bachelor in Computer Application</h5>
-                        <h6>Aadim National College, Chabahil kathmandu Nepal</h6>
-                        <p>Computer Science</p>
-                        <span>(2080)2023</span>
-                        
-                    </div>
-                </div> -->
-        <!-- <div class="row">
-                <div class="col-lg-2">
-                    <div class="circle-icons fa-solid fa-circle-dot text-white"></div>
-                    <div class="vertical-line"></div>
-                </div>
-                <div class="col-lg-10">
-                    <strong class="text-uppercase">Exp</strong>
-                        <h6>-------------------</h6><span>----</span>
-                </div>
-            </div> -->
-        <!-- <hr>
-                        <div class="row my-5 ">
-                            <div class="col-lg-2 col-md col-sm">
-                                <div class="circle-icons fa-solid fa-circle-dot text-white"></div>
-                                <div class="vertical-line"></div>
-                            </div>
-                            <div class="col-lg-10 ">
-                                <h5>Development Exp</h5>
-                                <h6>-------------------</h6><span>----</span>
-                            </div>
-                        </div> -->
-
-        <!-- certifications sections  -->
-        <!-- ------------------------- -->
-        <!-- <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3 class="">My Certifications</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p class="">Certificate Comming Soon...</p>
-            </div>
-        </div>
-     </div> -->
-        <!-- certifications sections  -->
-        <!-- .......................... -->
-        <!-- interviews sections  -->
-        <!-- <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3 class="">My Interview </h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p class="">Interview Comming Soon...</p>
-            </div>
-        </div>
-     </div> -->
-        <!-- interviews sections  -->
-    </section>
-    <!-- my qualification end  -->
-
-    <!-- contact section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Contact</h3>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row my-5">
-                <div class="col-lg-6 col-md col-sm d-block m-auto">
-                    <img src="./image/business.jpg" alt="contact-photo" class="img-fluid">
-                </div>
-                <div class="col-lg-6">
-                    <form method="post" id="user_form">
-                        <div class="form-group">
-                            <label for="name">Name <span class="text-danger">*</span></label>
-                            <input class="form-control w-75 " type="text" placeholder="Enter name" name="name"
-                                id="name"/>
-                            <span id="usernameerror" class=" text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Email <span class="text-danger">*</span></label>
-                            <input class="form-control w-75" type="email" placeholder="Enter email" name="email"
-                                id="email" />
-                            <span id="useremailerror" class=" text-danger"></span>
-                        </div>
-                        <!-- <div class="form-group">
-                            <label for="name">Subject</label>
-                            <input class="form-control w-75" type="text" placeholder="Enter subject" name="subject"
-                                id="subject" />
-                            <span id="emailHelp" class=" text-danger"></span>
-                        </div> -->
-                        <div class="form-group">
-                            <label for="name">Message</label>
-                            <br />
-                            <textarea class="form-control w-75" name="message" id="message" rows="4"
-                                placeholder="Write message"></textarea>
-                            <span id="smserror" class=" text-danger"></spa>
-                        </div>
-                        <button id="send_btn" type="submit" class="btn btn-success">Send your message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact section end -->
-
-    <!-- footer section start -->
-    <div class="footer-line"><br />
-        <div class="container-fluid ">
-            <div class="row">
-                <div class="col-lg-12 text-center ">
-                    <a href="https://www.facebook.com/profile.php" target="_blank"> <i data-toggle="tooltips"
-                            data-placement="top" title="facebook"
-                            class="mx-3 fa-brands fa-facebook text-success fa-2x"></i></a>
-                    <!-- <a href="https://www.twitter.com" target="_blank"> <i data-toggle="tooltips" data-placement="top"
-                            title="twitter" class="mx-3 fa-brands fa-twitter text-success fa-2x"></i></a> -->
-                    <a href="https://www.linkedin.com/in/santosh-chaudhary-9a933a19a/" target="_blank"> <i
-                            data-toggle="tooltips" data-placement="top" title="linkedin"
-                            class="mx-3 fa-brands fa-linkedin text-success fa-2x"></i></a>
-                    <a href="https://github.com/santoshchaudhary001" target="_blank"><i data-toggle="tooltips"
-                            data-placement="top" title="github"
-                            class="mx-3 fa-brands fa-github text-success fa-2x"></i></a>
-                    <!-- <a href="https://www.dribbble.com" target="_blank"><i data-toggle="tooltips" data-placement="top"
-                            title="dribbble" class="mx-3 fa-brands fa-dirbbble text-success fa-2x"></i></a> -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center my-3">
-                    Copyright &copy;<span id="c_date"></span>, All right reserved.
-                    <div id="scrolltop" class="scrollup fa-solid fa-circle-arrow-up fa-2x" data-toggle="tooltips"
-                        data-placement="bottom" title="Scroll Up"></div>
-                    <p>Personally crafted <span><a href="https://www.linkedin.com">&#128587;</a> By </span><span
-                            class="font-weight-normal text-success">Santosh Chaudhary</span></p>
-                </div>
-            </div>
-        </div>
-        <!-- footer section working end -->
-
-
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script src="./js/index.js"></script>
-        <noscript>You need to enable javascript to run this application</noscript>
+    <!-- custome js -->
+    <!-- <script src="./js/main.js"></script> -->
+    <script>
+        var typed = new Typed('.type', {
+          strings: ['Developer','Designer','Traveller'],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true,
+        });
+      </script>
 </body>
+
 </html>
