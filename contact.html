@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta-data end -->
+    <!-- facicons -->
+   
+   
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon_io/favicon-32x32.png">
+    
+    <!-- boostrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Santosh Chaudhary | Developer | Designer</title>
+
+</head>
+
+<body>
+    <div class="container header_wrapper scrollpage">
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <a class="navbar-brand" href="index.html"><img src="./favicon/favicon_io/favicon.ico" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                 <i class="fas fa-bars navbar-toggler-icon p-1"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav menu-navbar-nav text-sm-center">
+                    <li class="nav-item active">
+                        <a class="nav-link  text-uppercase" href="index.html">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link text-uppercase" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="portfolio.html">Portfolio</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- contact section -->
+        <div class="about-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="profileimg">
+                            <img src="./img/contact.aa47181438cfbd7e1042.gif" alt="contact" class="img-fluid">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="my-5 text-light">Contact me</h4>
+                        <form>
+                            <div class="form-group">
+                                <label class="text-light" for="formGroupname">Fullname</label>
+                                <input id="fname" type="text" class="form-control" name="fullname" placeholder="Fullname" autocomplete="off">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-light" for="formGroupemail">Email</label>
+                                <input id="email" type="email" class="form-control" name="email" placeholder="Email" autocomplete="off">
+                            </div>
+                            <label class="text-light" class="form-label" for="textAreaExample">Message</label>
+                            <div class="form-outline">
+                                <textarea id="sms"  class="form-control"  placeholder="Message" name="message" rows="4"></textarea>
+                                <button id="btn1" type="submit" onclick="Submit();">Send a Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+<script>
+
+function Submit(){
+     var dataEntered =retriveData();
+     var entered = readingDataFromLocalStorage();
+}
+// retrive data drom the form 
+
+function retriveData(){
+    var fullname = document.getElementById('#fname').value;
+    var email = document.getElementById('#email').value;
+    var mess = document.getElementById('#sms').value;
+
+    var arr =[fullname,email,mess];
+
+    return arr;
+}
+   
+    // data in localstorage 
+    function readingDataFromLocalStorage(dataEntered){
+    var fullname = localStorage.getItem('fname',dataEntere[0]);
+    var email = localStorage.getItem('email',dataEntere[1]);
+    var message = localStorage.getItem('message',dataEntere[2]);
+}
+
+</script>
+</body>
+
+</html>
