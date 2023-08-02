@@ -8,7 +8,7 @@
     <!-- meta-data end -->
     <!-- favicons -->
     
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon_io/favicon-32x32.png" loading="lazy">
 
 
     <!-- boostrap4 link  -->
@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Santosh Chaudhary | Developer | Designer</title>
-
+    <title>Santosh Chaudhary | Developer | Traveller</title>
+    <script defer src="./js/main.js"></script>
 </head>
 
 <body>
-    <div class="container header_wrapper scrollpage">
-        <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container header_wrapper">
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-light  sticky-top">
                 <a class="navbar-brand" href="index.html"><img src="./favicon/favicon_io/favicon.ico" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- <span class="navbar-toggler-icon"></span> -->
@@ -55,9 +55,9 @@
             <div class="cols cols0">
                 <span class="topline text-light">Hello</span>
                 <h1 class="text-light">I'm <span class="type"></span></h1>
-                <p class="text-light" style="font-size:18px;">
-                    I'm ethunstic and self motivated person and currently work as a Front-End Developer
-                    My Hobies are playing game, reading books cycling, travelling... 
+                <p class="text-light para">
+                    I'm ethunstic and self motivated person and currently work as a Full-Stack Developer and
+                    my hobies are playing game, reading books cycling, travelling. 
                 </p>
                
                 <div class="btns">
@@ -67,13 +67,10 @@
                         <a href="https://github.com/santoshchaudhary001"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100014248809901"><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-youtube"></i></a>
-                        <a href=""><i class="fa-brands fa-discord"></i></a> 
-                    </div>
+                  </div>
                     <br>
-                   <button class="download-btn" data-timer="5">download CV</button>
-                   <a href="contact.html"><button>hire me</button></a>
+                   <button class="download-btn" data-timer="5" download>download CV</button>
+                   <a href="/contact.html"><button>hire me</button></a>
                 </div>
             </div>
 
@@ -81,17 +78,17 @@
             <div class="cols cols1">
                 <div class="imgbox">
                     <div class="circle-arc">
-                        <img src="./img/mypro.png" alt="photo"> 
+                        <img src="./img/santoshprofilephoto.png" alt="hero-photo" loading="lazy" class="img-fluid" > 
                     </div>
                     
                 </div>
             </div>
         </div> 
     </div>
-    <footer>
+   <footer>
         <div class="copyright text-center my-2 py-3 text-light" style=" font-size: 0.9rem; opacity: 0.5;; font-weight: lighter; color:rgba(56, 56, 57, 0.8); ">
            Copyright &copy; <span><script>document.write(new Date().getFullYear());</script>, </span>All rights reserved. <br>
-           <span class="text-light">Personally Crafted <span><i class="fa fa-heart" style="color: #ff10f0;"></i></span> By <a href="https://www.linkedin.com/in/santosh-chaudhary-9a933a19a/">Santosh Chaudhary</a></span>
+           <span class="text-light">Personally Crafted <span><i class="fa fa-heart" style="color: #ff10f0;"></i></span> By <a class="text-decoration-none" href="https://www.linkedin.com/in/santosh-chaudhary-9a933a19a/">Santosh Chaudhary</a></span>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -101,14 +98,6 @@
 
     <!-- custome js -->
     
-    <script>
-        var typed = new Typed('.type', {
-          strings: ['Developer','Designer','Traveller'],
-          typeSpeed: 150,
-          backSpeed: 150,
-          loop: true,
-        });
-    </script>
-    <script src="./js/main.js"></script>
+    
 </body>
 </html>

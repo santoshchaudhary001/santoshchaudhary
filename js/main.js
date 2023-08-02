@@ -1,37 +1,7 @@
 
 
+window.addEventListener('load',function(){
 
-// smooth scroll page using obserber (inetersectionObserver)
-const observer = new  IntersectionObserver((entries)=>{
-  entries.forEach((entry) =>{
-    if(entry.isIntersecting){
-        entry.target.classList.add('show');
-    }else{
-        entry.target.classList.remove('show');
-    }
-
-  })
-
-},
-{
-threshold: 0.5
-})
-
-
-const hiddenElements = document.querySelectorAll('.scrollpage');
-
-// for loop
-
-// for (let i = 0 ; i < hiddenElements.length; i++){
-//     const el = hiddenElements[i];
-//     observer.observe(el);
-// }
-
-// foreach looop
-
-hiddenElements.forEach((el)=> observer.observe(el));
-
-// end scroll functions
 
 // download functions in js start
 
@@ -72,6 +42,19 @@ if(downloadBtn.classList.contains('disable-timer')){
 
 downloadBtn.addEventListener('click', initTimer);
 
+function typeEffect(){
+  var typed = new Typed('.type', {
+    strings: ['Developer','Designer','Traveller'],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true,
+  });
+}
+
+typeEffect();
+
 
 // typewrite effect
 // import Typewriter from 'typewriter-effect/dist/core';
+
+});
